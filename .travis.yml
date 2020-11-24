@@ -7,3 +7,6 @@ install:
 
 script: 
   - python test_mathOp.py
+  
+after_success:
+  - codecov
