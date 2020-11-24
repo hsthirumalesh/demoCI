@@ -2,9 +2,6 @@ language: python
 python:
   - "3.6"
   
-install:
-  - sudo apt-get update
-
 script: 
   - python test_mathOp.py
   
