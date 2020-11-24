@@ -1,4 +1,6 @@
-
+"""
+Factorial of a number
+"""
 
 def factorial(num):
     if n <= 0:
