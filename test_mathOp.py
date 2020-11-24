@@ -4,6 +4,10 @@ from mathOp import factorial
 
 class ErrorsTestCase(unittest.TestCase):
 
+    def test_factorial_3(self):
+        factorial_3 = factorial(3)
+        self.assertTrue(factorial_3 == 6)
+
     def test_factorial_4(self):
         factorial_4 = factorial(4)
         self.assertTrue(factorial_4 == 24)    
