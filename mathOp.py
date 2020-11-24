@@ -1,5 +1,5 @@
 """
-Factorial of a number
+Returns Factorial of a number
 """
 
 def factorial(num):
